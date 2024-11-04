@@ -1,8 +1,7 @@
 ---
-date: 2024-11-03
+date: 2024-10-27T18:04:38-04:00
 # description: ""
 # image: ""
-lastmod: 2024-11-03
 showTableOfContents: false
 tags: ["k8s","llama3","llm","genAI"]
 title: "Deploy Ollama Models in AKS - Part 1"
