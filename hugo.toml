@@ -4,9 +4,17 @@ defaultContentLanguage = "en"
 enableRobotsTXT = true
 languageCode = "en"
 theme = "gokarna"
-title = "Digital Dump"
+title = "mhathesh.me"
 googleAnalytics = "G-X9KPV76EFD"
 
+[params]
+  dateFormat = "3 November, 2024"
+  showBackToTopButton = true
+  togglePreviousAndNextButtons = "false"
+  socialIcons = [
+        {name = "github", url = "https://github.com/maddy023"},
+        {name = "linkedin", url = "https://linkedin.com/in/madeshselva"},
+      ]
 
 [menu]
   [[menu.main]]
@@ -24,17 +32,3 @@ googleAnalytics = "G-X9KPV76EFD"
     name = "Tags"
     url = "/tags/"
     weight = 2
-    
-  [[menu.main]]
-    # Unique identifiers are required for menu entries without a name property,
-    # or for menu entries which re-use a name
-    identifier = "github"
-
-    # Absolute URL to external resource
-    url = "https://github.com/maddy023"
-    weight = 3
-    
-    # Surround the menu entry (or name) with HTML content, such as Feather
-    # icons: https://feathericons.com
-    pre = "<span data-feather='github'></span>"
-    post = ""
