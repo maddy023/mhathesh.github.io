@@ -257,3 +257,51 @@ spec:
 ### Additional Resources
 
 For more details on deploying Ollama using Helm charts, check out the [Ollama Helm Repository on GitHub](https://github.com/otwld/ollama-helm). This repository provides Helm chart templates and further configuration options to help streamline the deployment process.
+
+
+To deploy Ollama using a Helm chart, you’ll need to configure a values.yaml file that specifies key settings and environment variables for your Kubernetes deployment. Below is a sample values.yaml file with sample configurations and context for each setting. Update these values as necessary to match your deployment needs, especially for GPU resources, ingress settings, and environment variables.
+
+```yaml
+ollama:
+  gpu:
+    enabled: true
+  
+    type: 'nvidia'
+    number: 1
+  models: 
+    - llama3:70b
+
+ingress:
+  enabled: true
+  annotations: 
+    kubernetes.io/ingress.class: "nginx"
+
+  hosts:
+    - host: ollama-api.mhathesh.me
+      paths:
+        - path: /
+          pathType: Prefix
+  tls: 
+   - secretName: oolama-api-ss-ai-cert
+     hosts:
+       - ollama-api.mhathesh.me
+
+livenessProbe:
+  enabled: true
+  path: /
+
+readinessProbe:
+  enabled: true
+  path: /
+
+extraEnv:
+ - name: OLLAMA_DEBUG
+   value: "1"
+
+persistentVolume:
+  enabled: true
+  accessModes:
+    - ReadWriteOnce
+  size: 50Gi
+  storageClass: "managed-csi-premium"
+```
