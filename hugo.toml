@@ -8,6 +8,7 @@ title = "mhathesh.me"
 googleAnalytics = "G-X9KPV76EFD"
 
 [params]
+  accentColor = "#FF4D4D"
   dateFormat = "3 November, 2024"
   showBackToTopButton = true
   togglePreviousAndNextButtons = "false"

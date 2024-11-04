@@ -5,11 +5,11 @@ date: 2024-11-03
 lastmod: 2024-11-03
 showTableOfContents: false
 tags: ["k8s","llama3","llm","genAI"]
-title: "Deploy Ollama Models K8s - Part 1"
+title: "Deploy Ollama Models in AKS - Part 1"
 type: "post"
 ---
 
-# How to Deploy Any Ollama Models in Kubernetes
+# How to Deploy Any Ollama Models in AKS
 
 In this guide, we will explore the step-by-step process of deploying Ollama models in an Azure Kubernetes Service (AKS) cluster. We will cover the necessary prerequisites, including setting up a GPU node pool to optimize performance for machine learning tasks, and using Helm charts to manage the deployment of the GPU operator, which is crucial for handling GPU resources effectively. This guide assumes that your AKS cluster is already deployed and configured, and we will provide detailed commands and configurations to ensure a smooth deployment process.
 
