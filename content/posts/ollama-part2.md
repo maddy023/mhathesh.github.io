@@ -52,8 +52,6 @@ curl http://localhost:11434/api/generate -d '{
 To deploy Ollama in a Kubernetes environment, you can use the following Kubernetes manifest files. Make sure to review and configure them as necessary before deployment. Once configured, apply the manifests to your Kubernetes cluster to launch the Ollama model server.
 
 
-### Environment Variables for Ollama Deployment
-
 # Environment Variables for Ollama Deployment
 
 When deploying Ollama in a Kubernetes environment, it's essential to configure the appropriate environment variables to ensure optimal performance and resource management. Below are the key environment variables you should consider, along with their descriptions and recommended values.
