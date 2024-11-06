@@ -5,12 +5,12 @@ date: 2024-11-06
 lastmod: 2024-11-06
 showTableOfContents: false
 tags: ["GCP","Github Actions", "CI/CD"]
-title: "GCP Cloudrun - CI/CD Pipeline Part 2"
+title: "Part 2: Rolling Up Your Sleeves: Building, Pushing, and Deploying like a Pro "
 type: "post"
 draft: false
 ---
 
-### Github Action Script with Rollback Feature 
+### Part 2: Rolling Up Your Sleeves: Building, Pushing, and Deploying like a Pro 
 
 Welcome to Part 2 of our series on deploying applications to Google Cloud Run via a CI/CD pipeline. In Part 1, we covered the initial setup, including creating a Google Cloud project, configuring required APIs, and setting up service accounts. Now, in Part 2, we’ll dive into the heart of the deployment pipeline.
 
@@ -99,7 +99,6 @@ These environment variables make the pipeline more flexible by allowing easy con
 
 This step ensures that the GitHub runner can communicate with Google Cloud services using the `gcloud` CLI and allows it to deploy and manage Cloud Run services, interact with Artifact Registry, and more.
 
-----------
 
 ### **Step 5: Create Artifact Repository & Check if Repository Exists**
 
@@ -199,8 +198,6 @@ This step ensures that an Artifact Registry repository exists for storing Docker
 -   **`if: success()`**: This condition ensures that the step only runs if the previous deployment step succeeded.
 -   **`run`**: The `gcloud run services update-traffic` command is used to direct all incoming traffic to the latest revision of the deployed service. This ensures that users will always be routed to the most recent deployment.
 -   **Purpose**: This step ensures that the latest deployment is fully live and receives all traffic.
-
-----------
 
 ### **Step 9: List Revisions**
 

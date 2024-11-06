@@ -1,15 +1,15 @@
 ---
-date: 2024-10-27T18:03:38-04:00
+date: 2024-10-27T18:04:38-04:00
 # description: ""
 # image: ""
 showTableOfContents: false
 tags: ["k8s","llama3","llm","genAI"]
-title: "Deploy Ollama Models in AKS - Part 2"
+title: "Part 2: Exposing and Scaling the Ollama Model on AKS"
 type: "post"
 draft: false
 ---
 
-# How to Deploy Any Ollama Models in AKS
+# Part 2: Exposing and Scaling the Ollama Model on AKS
 
 Ollama is a versatile platform designed for deploying and managing language models like Llama. It's particularly suited for environments where large models are run on Kubernetes clusters, utilizing GPU resources efficiently. In this guide, we’ll explore deploying the Ollama model server using Docker and the CLI, and we’ll reference important configurations and best practices to make the deployment seamless.
 

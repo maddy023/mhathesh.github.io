@@ -5,12 +5,12 @@ date: 2024-11-06
 lastmod: 2024-11-06
 showTableOfContents: false
 tags: ["GCP","Github Actions", "CI/CD"]
-title: "GCP Cloudrun - CI/CD Pipeline Part 3"
+title: "Part 3: Oops, Something Went Wrong! Let’s Roll Back to the Rescue "
 type: "post"
 draft: false
 ---
 
-### Handling Failures with Automatic Rollback
+### Part 3: Oops, Something Went Wrong! Let’s Roll Back to the Rescue
 
 In this section, we’ll cover the steps that help ensure the stability of your Cloud Run deployment by implementing an automatic rollback mechanism in case of failure. Even the most carefully planned deployments can encounter issues, and it's essential to have a strategy in place to quickly revert to a stable version of your application.
 
@@ -26,33 +26,33 @@ This step lists all the revisions of the Cloud Run service. It first checks for 
 
 ```yaml
 - name: List Revisions
-        id: list-revisions
-        if: failure()
-        run: |
-          # Fetch the list of revisions and their status (active or not)
-          REVISIONS=$(gcloud run revisions list --service=$CLOUD_RUN_SERVICE_NAME --region=$ARTIFACT_REGION --format="value(REVISION,ACTIVE)") 
-          ACTIVE_REVISION=""
-          PREVIOUS_REVISION=""
+  id: list-revisions
+  if: failure()
+  run: |
+    # Fetch the list of revisions and their status (active or not)
+    REVISIONS=$(gcloud run revisions list --service=$CLOUD_RUN_SERVICE_NAME --region=$ARTIFACT_REGION --format="value(REVISION,ACTIVE)") 
+    ACTIVE_REVISION=""
+    PREVIOUS_REVISION=""
 
-          # Process the list of revisions to identify the active and previous revision
-          while read -r REVISION ACTIVE; do
-            if [ "$ACTIVE" = "yes" ]; then
-              ACTIVE_REVISION="$REVISION"
-            elif [ -z "$PREVIOUS_REVISION" ]; then
-              PREVIOUS_REVISION="$REVISION"
-            fi
-          done <<< "$REVISIONS"
+    # Process the list of revisions to identify the active and previous revision
+    while read -r REVISION ACTIVE; do
+      if [ "$ACTIVE" = "yes" ]; then
+        ACTIVE_REVISION="$REVISION"
+      elif [ -z "$PREVIOUS_REVISION" ]; then
+        PREVIOUS_REVISION="$REVISION"
+      fi
+    done <<< "$REVISIONS"
 
-          # Determine the rollback revision (either active or previous)
-          if [ -n "$ACTIVE_REVISION" ]; then
-            ROLLBACK_REVISION="$ACTIVE_REVISION"
-          else
-            ROLLBACK_REVISION="$PREVIOUS_REVISION"
-          fi
+    # Determine the rollback revision (either active or previous)
+    if [ -n "$ACTIVE_REVISION" ]; then
+      ROLLBACK_REVISION="$ACTIVE_REVISION"
+    else
+      ROLLBACK_REVISION="$PREVIOUS_REVISION"
+    fi
 
-          # Output the revision that will be rolled back to
-          echo "Rollback target revision: $ROLLBACK_REVISION"
-          echo "::set-output name=previous-revision::$ROLLBACK_REVISION"` 
+    # Output the revision that will be rolled back to
+    echo "Rollback target revision: $ROLLBACK_REVISION"
+    echo "::set-output name=previous-revision::$ROLLBACK_REVISION"` 
 ```
 
 ##### **Explanation of this Step:**
@@ -70,10 +70,10 @@ If the deployment fails, this step rolls back the Cloud Run service to the previ
 
 ```yaml
 - name: Rollback to Previous Version
-        if: failure()
-        run: |
-          # Rollback to the previous revision identified in the previous step
-          gcloud run services update-traffic $CLOUD_RUN_SERVICE_NAME --region=$ARTIFACT_REGION --to-revisions ${{ steps.list-revisions.outputs.previous-revision }}=100` 
+  if: failure()
+  run: |
+    # Rollback to the previous revision identified in the previous step
+    gcloud run services update-traffic $CLOUD_RUN_SERVICE_NAME --region=$ARTIFACT_REGION --to-revisions ${{ steps.list-revisions.outputs.previous-revision }}=100` 
 ```
 
 ##### **Explanation of this Step:**

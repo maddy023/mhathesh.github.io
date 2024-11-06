@@ -1,6 +1,5 @@
-baseURL = "https://mhathesh.me/"
+baseURL = "https://mhathesh.me"
 defaultContentLanguage = "en"
-# Automatically generate robots.txt
 enableRobotsTXT = true
 languageCode = "en"
 theme = "gokarna"

@@ -1,14 +1,14 @@
 ---
-date: 2024-10-27T18:04:38-04:00
+date: 2024-10-27T18:03:38-04:00
 # description: ""
 # image: ""
 showTableOfContents: false
 tags: ["k8s","llama3","llm","genAI"]
-title: "Deploy Ollama Models in AKS - Part 1"
+title: "Part 1: Preparing Your Environment and Setting Up AKS for Ollama Models"
 type: "post"
 ---
 
-# How to Deploy Any Ollama Models in AKS
+# Part 1: Preparing Your Environment and Setting Up AKS for Ollama Models
 
 In this guide, we will explore the step-by-step process of deploying Ollama models in an Azure Kubernetes Service (AKS) cluster. We will cover the necessary prerequisites, including setting up a GPU node pool to optimize performance for machine learning tasks, and using Helm charts to manage the deployment of the GPU operator, which is crucial for handling GPU resources effectively. This guide assumes that your AKS cluster is already deployed and configured, and we will provide detailed commands and configurations to ensure a smooth deployment process.
 
@@ -119,3 +119,7 @@ This command does the following:
 - **`--set-json daemonsets.tolerations`**: This sets the tolerations for the daemonsets, allowing them to run on nodes with specific taints, ensuring that the GPU operator can effectively manage GPU resources.
 
 Once the GPU operator is deployed, it will automatically handle the installation of the necessary NVIDIA drivers and configure the environment to ensure that your applications can leverage the power of GPUs seamlessly. This setup is essential for optimizing performance in machine learning and other GPU-intensive tasks.
+
+## Related Guides
+
+{{< ref "ollama-part1." >}}
