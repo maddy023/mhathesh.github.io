@@ -7,7 +7,7 @@ showTableOfContents: false
 tags: ["GCP","Github Actions", "CI/CD"]
 title: "Part 1: Setting the Stage: Your Cloud Run Setup Adventure"
 type: "post"
-draft: false
+draft: true
 ---
 ### Part 1: Setting the Stage: Your Cloud Run Setup Adventure
 

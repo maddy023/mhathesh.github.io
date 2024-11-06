@@ -7,7 +7,7 @@ showTableOfContents: false
 tags: ["GCP","Github Actions", "CI/CD"]
 title: "Part 2: Rolling Up Your Sleeves: Building, Pushing, and Deploying like a Pro"
 type: "post"
-draft: false
+draft: true
 ---
 
 ### Part 2: Rolling Up Your Sleeves: Building, Pushing, and Deploying like a Pro 

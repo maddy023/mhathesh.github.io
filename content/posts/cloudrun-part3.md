@@ -7,7 +7,7 @@ showTableOfContents: false
 tags: ["GCP","Github Actions", "CI/CD"]
 title: "Part 3: Oops, Something Went Wrong! Let’s Roll Back to the Rescue "
 type: "post"
-draft: false
+draft: true
 ---
 
 ### Part 3: Oops, Something Went Wrong! Let’s Roll Back to the Rescue
