@@ -303,3 +303,7 @@ persistentVolume:
   size: 50Gi
   storageClass: "managed-csi-premium"
 ```
+
+## Just Like Pretzel Day – You Won’t Want to Miss These!
+
+[Part 1: Preparing Your Environment and Setting Up AKS for Ollama Models]({{< ref "ollama-part1" >}})

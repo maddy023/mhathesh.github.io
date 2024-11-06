@@ -5,7 +5,7 @@ date: 2024-11-06
 lastmod: 2024-11-06
 showTableOfContents: false
 tags: ["GCP","Github Actions", "CI/CD"]
-title: "Part 2: Rolling Up Your Sleeves: Building, Pushing, and Deploying like a Pro "
+title: "Part 2: Rolling Up Your Sleeves: Building, Pushing, and Deploying like a Pro"
 type: "post"
 draft: false
 ---
@@ -249,3 +249,11 @@ This step ensures that an Artifact Registry repository exists for storing Docker
 we focused on the steps involved in building and deploying your containerized application to Cloud Run using GitHub Actions. We outlined the process of authenticating with Google Cloud, configuring the Docker client, building and pushing the Docker image to Artifact Registry, and deploying it to Cloud Run. Additionally, we explored how traffic is routed to the latest deployment to ensure that users always have access to the newest version of the application.
 
 By automating these tasks within your CI/CD pipeline, you streamline the deployment process and ensure that your application can be quickly and reliably deployed to Cloud Run with every code change, reducing manual intervention and accelerating development cycles.
+
+## Jim Face… if You Skip These Must-Reads 😐
+
+[Part 1: Setting the Stage: Your Cloud Run Setup Adventure]({{< ref "cloudrun-part2" >}})
+
+[Part 3: Oops, Something Went Wrong! Let’s Roll Back to the Rescue]({{< ref "cloudrun-part3" >}})
+
+[Part 1: Preparing Your Environment and Setting Up AKS for Ollama Models]({{< ref "ollama-part1" >}})

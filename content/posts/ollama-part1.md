@@ -120,6 +120,8 @@ This command does the following:
 
 Once the GPU operator is deployed, it will automatically handle the installation of the necessary NVIDIA drivers and configure the environment to ensure that your applications can leverage the power of GPUs seamlessly. This setup is essential for optimizing performance in machine learning and other GPU-intensive tasks.
 
-## Related Guides
+## Don’t Be a Toby – Check Out These Fun Reads!
 
-{{< ref "ollama-part1." >}}
+[Part 2: Exposing and Scaling the Ollama Model on AKS]({{< ref "ollama-part2" >}})
+
+[Part 1: Setting the Stage: Your Cloud Run Setup Adventure]({{< ref "cloudrun-part2" >}})

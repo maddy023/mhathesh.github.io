@@ -95,4 +95,8 @@ gcloud iam service-accounts keys create key.json \
 
 we walked through the initial setup needed to deploy an application on Cloud Run via a GitHub Actions pipeline. This included creating a Google Cloud Project, enabling essential APIs, and setting up a Service Account with the required roles. These foundational steps are crucial for ensuring that the pipeline has the right permissions and that all necessary services are available for deployment.
 
-{{< ref "cloudrun-part2" >}}
+## Stanley Only Runs… for Blogs Like These
+
+[Part 2: Rolling Up Your Sleeves: Building, Pushing, and Deploying like a Pro]({{< ref "cloudrun-part2" >}})
+
+[Part 3: Oops, Something Went Wrong! Let’s Roll Back to the Rescue]({{< ref "cloudrun-part3" >}})

@@ -87,3 +87,9 @@ If the deployment fails, this step rolls back the Cloud Run service to the previ
 Further delved into the importance of ensuring your Cloud Run deployments are reliable, even when things go wrong. We explored how to implement an automatic rollback mechanism using GitHub Actions. If a deployment fails, the pipeline automatically detects the issue, lists the service revisions, and rolls back to the last known stable version of the application.
 
 This rollback strategy is key to maintaining high availability and minimizing downtime. With these steps in place, you can rest assured that your deployment pipeline is not only efficient but also resilient, capable of recovering from failures and ensuring that your service remains operational even during challenging circumstances.
+
+## Did I Stutter? Start Reading Now!
+
+[Part 1: Setting the Stage: Your Cloud Run Setup Adventure]({{< ref "cloudrun-part2" >}})
+
+[Part 2: Rolling Up Your Sleeves: Building, Pushing, and Deploying like a Pro]({{< ref "cloudrun-part2" >}})
