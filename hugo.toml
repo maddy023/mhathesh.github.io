@@ -4,13 +4,14 @@ defaultContentLanguage = "en"
 enableRobotsTXT = true
 languageCode = "en"
 theme = "gokarna"
-title = "mhathesh.me"
+title = "Mhathesh"
+headerTitle = "Home"
 googleAnalytics = "G-X9KPV76EFD"
 
 [params]
   accentColor = "#FF4D4D"
   showBackToTopButton = true
-  togglePreviousAndNextButtons = "false"
+  togglePreviousAndNextButtons = "true"
   socialIcons = [
         {name = "github", url = "https://github.com/maddy023"},
         {name = "linkedin", url = "https://linkedin.com/in/madeshselva"},
