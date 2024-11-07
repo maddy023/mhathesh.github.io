@@ -3,15 +3,12 @@ date: 2024-11-06
 # description: ""
 # image: ""
 lastmod: 2024-11-06
-showTableOfContents: false
+showTableOfContents: true
 tags: ["GCP","Github Actions", "CI/CD"]
 title: "Part 3: Oops, Something Went Wrong! Let’s Roll Back to the Rescue "
 type: "post"
-draft: true
+# draft: true
 ---
-
-### Part 3: Oops, Something Went Wrong! Let’s Roll Back to the Rescue
-
 In this section, we’ll cover the steps that help ensure the stability of your Cloud Run deployment by implementing an automatic rollback mechanism in case of failure. Even the most carefully planned deployments can encounter issues, and it's essential to have a strategy in place to quickly revert to a stable version of your application.
 
 We’ll walk through how to use GitHub Actions to automatically detect failed deployments, list the service revisions, and roll back to the most recent working version. This ensures your service remains reliable and minimizes any downtime caused by deployment issues.
@@ -62,8 +59,6 @@ This step lists all the revisions of the Cloud Run service. It first checks for 
 -   It checks if there is an active revision and, if so, sets it as the target for rollback. If no active revision is found, it defaults to the previous one.
 -   The revision that will be used for rollback is then saved and made available to the next step using the `set-output` command.
 
-----------
-
 #### 12. **Rollback to Previous Version**
 
 If the deployment fails, this step rolls back the Cloud Run service to the previous or active revision identified in the previous step.
@@ -88,7 +83,7 @@ Further delved into the importance of ensuring your Cloud Run deployments are re
 
 This rollback strategy is key to maintaining high availability and minimizing downtime. With these steps in place, you can rest assured that your deployment pipeline is not only efficient but also resilient, capable of recovering from failures and ensuring that your service remains operational even during challenging circumstances.
 
-## Did I Stutter? Start Reading Now!
+### Did I Stutter? Start Reading Now!
 
 [Part 1: Setting the Stage: Your Cloud Run Setup Adventure]({{< ref "cloudrun-part2" >}})
 

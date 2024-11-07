@@ -3,14 +3,12 @@ date: 2024-11-06
 # description: ""
 # image: ""
 lastmod: 2024-11-06
-showTableOfContents: false
+showTableOfContents: true
 tags: ["GCP","Github Actions", "CI/CD"]
 title: "Part 1: Setting the Stage: Your Cloud Run Setup Adventure"
 type: "post"
-draft: true
+# draft: true
 ---
-### Part 1: Setting the Stage: Your Cloud Run Setup Adventure
-
 In this blog, we’ll dive into setting up a CI/CD pipeline for deploying applications to Google Cloud Run. Cloud Run provides a fully managed serverless environment for containerized applications, making it ideal for scalable, microservices-based deployments. This guide walks through configuring a GitHub Actions workflow that builds, pushes, and deploys Docker images to Cloud Run, with added steps for rollback in case of failures.
 
 Whether you're looking to streamline deployments or improve reliability with automated rollbacks, this step-by-step tutorial will help you set up a robust pipeline for Cloud Run deployments.
@@ -90,12 +88,11 @@ gcloud iam service-accounts keys create key.json \
 
 2.  **Add Secrets to GitHub**: In your GitHub repository, go to **Settings > Secrets and Variables > Actions**, and add a new repository secret with the content of the JSON key.
 
-
 ### Conlusion
 
 we walked through the initial setup needed to deploy an application on Cloud Run via a GitHub Actions pipeline. This included creating a Google Cloud Project, enabling essential APIs, and setting up a Service Account with the required roles. These foundational steps are crucial for ensuring that the pipeline has the right permissions and that all necessary services are available for deployment.
 
-## Stanley Only Runs… for Blogs Like These
+### Stanley Only Runs… for Blogs Like These
 
 [Part 2: Rolling Up Your Sleeves: Building, Pushing, and Deploying like a Pro]({{< ref "cloudrun-part2" >}})
 

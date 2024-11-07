@@ -3,22 +3,18 @@ date: 2024-11-06
 # description: ""
 # image: ""
 lastmod: 2024-11-06
-showTableOfContents: false
+showTableOfContents: true
 tags: ["GCP","Github Actions", "CI/CD"]
 title: "Part 2: Rolling Up Your Sleeves: Building, Pushing, and Deploying like a Pro"
 type: "post"
-draft: true
+# draft: true
 ---
-
-### Part 2: Rolling Up Your Sleeves: Building, Pushing, and Deploying like a Pro 
-
 Welcome to Part 2 of our series on deploying applications to Google Cloud Run via a CI/CD pipeline. In Part 1, we covered the initial setup, including creating a Google Cloud project, configuring required APIs, and setting up service accounts. Now, in Part 2, we’ll dive into the heart of the deployment pipeline.
 
 This segment will focus on configuring the GitHub Actions workflow for seamless deployment to Cloud Run. You’ll learn how to build and push Docker images, deploy them to Cloud Run, manage traffic routing, and set up automated rollback in case of deployment failures. By the end of Part 2, you’ll have a fully operational pipeline, ensuring reliable and efficient application releases to Cloud Run.
 
 
 ### Below is a breakdown of each section and step in the YAML file used for deploying a containerized application to Google Cloud Run through a CI/CD pipeline using GitHub Actions.
-
 
 ### **Environment Variables**
 
@@ -40,8 +36,6 @@ These are the environment variables required for the deployment:
 -   **`CLOUD_RUN_SERVICE_NAME`**: The name of the Cloud Run service to deploy
 
 These environment variables make the pipeline more flexible by allowing easy configuration of project details.
-
-
 
 ### **Steps in the Job**
 
@@ -70,7 +64,6 @@ These environment variables make the pipeline more flexible by allowing easy con
 
 **Note**: The `SA_SERVICE_KEY` secret must be stored securely in GitHub secrets. It should contain the JSON credentials for a Google Cloud service account with the appropriate permissions (such as `roles/run.admin` for Cloud Run and `roles/artifactregistry.admin` for Artifact Registry).
 
-
 #### **Step 3: Extract Branch Name**
 
 ```yaml
@@ -86,7 +79,6 @@ These environment variables make the pipeline more flexible by allowing easy con
 -   **`run`**: This line extracts the branch name from the GitHub environment variable `GITHUB_REF`, which contains the full reference of the GitHub branch or tag. The expression `${GITHUB_REF#refs/heads/}` strips the `refs/heads/` prefix from the reference, leaving only the branch name (e.g., `dev` or `feature-branch`).
 -   **`set-output`**: This command sets an output named `branch`, which will store the extracted branch name. This output can be used in later steps to dynamically adjust configurations (such as naming the Artifact Registry repository per branch).
 
-
 ### **Step 4: Set Up Google Cloud CLI**
 
 ```yaml
@@ -98,7 +90,6 @@ These environment variables make the pipeline more flexible by allowing easy con
 ```
 
 This step ensures that the GitHub runner can communicate with Google Cloud services using the `gcloud` CLI and allows it to deploy and manage Cloud Run services, interact with Artifact Registry, and more.
-
 
 ### **Step 5: Create Artifact Repository & Check if Repository Exists**
 
@@ -221,7 +212,6 @@ This step ensures that an Artifact Registry repository exists for storing Docker
     -   The latest revision name is then set as an output (`latest-revision`) for future reference in the pipeline.
 -   **Purpose**: This step provides the latest revision name, which can be used for monitoring or rollback purposes.
 
-
 ### **Step 10: Check Deployment Status**
 
 ```yaml
@@ -250,7 +240,7 @@ we focused on the steps involved in building and deploying your containerized ap
 
 By automating these tasks within your CI/CD pipeline, you streamline the deployment process and ensure that your application can be quickly and reliably deployed to Cloud Run with every code change, reducing manual intervention and accelerating development cycles.
 
-## Jim Face… if You Skip These Must-Reads 😐
+### Jim Face… if You Skip These Must-Reads 😐
 
 [Part 1: Setting the Stage: Your Cloud Run Setup Adventure]({{< ref "cloudrun-part2" >}})
 
