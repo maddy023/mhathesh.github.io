@@ -136,4 +136,8 @@ Our Data Science team can now seamlessly access the Parquet files through **Azur
 
 By leveraging Azure Data Factory and converting our dataset to Parquet, we’ve achieved a scalable, cost-effective data pipeline that meets both our storage and access requirements. Not only has this approach reduced operational costs, but it also provides our teams with a powerful framework to handle large datasets in Azure.This solution shows how the right combination of tools—in our case, ADF and Parquet—can transform complex data challenges into manageable, efficient workflows in the cloud.
 
+### Shoutout to My Data Wizard: Sudipta Ghosh!
+
+I would like to extend my heartfelt thanks to the data engineer, [Sudipta Ghosh](https://www.linkedin.com/in/sudipta-ghosh-a83191196), who collaborated with me throughout this project. Their expertise and support were invaluable in overcoming numerous challenges we faced.
+
 *Additionally, some tables encountered issues during the Parquet conversion due to datetime format inconsistencies. We’ll cover how we resolved these issues in a future blog post.*
