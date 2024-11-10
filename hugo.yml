@@ -67,8 +67,8 @@ params:
   # description: ""
   author: mhathesh
   # author: ["Me", "You"] # multiple authors
-  defaultTheme: auto
-  disableThemeToggle: false
+  defaultTheme: light
+  # disableThemeToggle: false
   ShowShareButtons: true
   ShowReadingTime: true
   # disableSpecial1stPost: true
