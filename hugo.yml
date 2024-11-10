@@ -106,8 +106,11 @@ params:
       title: View Source on Github
       url: "https://github.com/maddy023"
     - name: linkedin
-      title: Connect with me!
+      title: Connect with me
       url: "https://linkedin.com/in/madeshselva"
+    - name: topmate
+      title: Wana discuss about anything?
+      url: "https://topmate.io/mhathesh"
     - name: KoFi
       title: Buy me Coffee :)
       url: "https://buymeacoffee.com/maddytsr"
