@@ -102,9 +102,9 @@ params:
   #     👋 Welcome to demo page of Hugo's theme PaperMod!
 
   socialIcons:
-    - name: github
-      title: View Source on Github
-      url: "https://github.com/maddy023"
+    # - name: github
+    #   title: View Source on Github
+    #   url: "https://github.com/maddy023"
     - name: linkedin
       title: Connect with me
       url: "https://linkedin.com/in/madeshselva"
