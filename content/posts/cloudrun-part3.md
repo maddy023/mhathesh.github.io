@@ -7,7 +7,7 @@ showTableOfContents: true
 tags: ["GCP","Github Actions", "CI/CD"]
 title: "Part 3: Oops, Something Went Wrong! Let’s Roll Back to the Rescue "
 type: "post"
-# draft: true
+draft: true
 ---
 In this section, we’ll cover the steps that help ensure the stability of your Cloud Run deployment by implementing an automatic rollback mechanism in case of failure. Even the most carefully planned deployments can encounter issues, and it's essential to have a strategy in place to quickly revert to a stable version of your application.
 

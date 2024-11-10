@@ -7,7 +7,7 @@ showTableOfContents: true
 tags: ["GCP","Github Actions", "CI/CD"]
 title: "Part 1: Setting the Stage: Your Cloud Run Setup Adventure"
 type: "post"
-# draft: true
+draft: true
 ---
 In this blog, we’ll dive into setting up a CI/CD pipeline for deploying applications to Google Cloud Run. Cloud Run provides a fully managed serverless environment for containerized applications, making it ideal for scalable, microservices-based deployments. This guide walks through configuring a GitHub Actions workflow that builds, pushes, and deploys Docker images to Cloud Run, with added steps for rollback in case of failures.
 
