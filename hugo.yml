@@ -65,10 +65,9 @@ outputs:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   # description: ""
-  author: Mhathesh
+  author: mhathesh
   # author: ["Me", "You"] # multiple authors
-
-  defaultTheme: light
+  defaultTheme: auto
   # disableThemeToggle: true
   ShowShareButtons: true
   ShowReadingTime: true
