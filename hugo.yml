@@ -5,6 +5,7 @@ title: Mhathesh
 # copyright: """
 paginate: 5
 theme: [PaperMod]
+googleAnalytics: "G-X9KPV76EFD"
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
