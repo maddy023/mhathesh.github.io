@@ -123,5 +123,3 @@ Once the GPU operator is deployed, it will automatically handle the installation
 ## Don’t Be a Toby – Check Out These Fun Reads!
 
 [Part 2: Exposing and Scaling the Ollama Model on AKS]({{< ref "ollama-part2" >}})
-
-[Part 1: Setting the Stage: Your Cloud Run Setup Adventure]({{< ref "cloudrun-part2" >}})

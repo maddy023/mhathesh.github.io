@@ -11,7 +11,7 @@ type: "post"
 
 ### Problem Statement
 
-When managing massive datasets in a secure, scalable environment, it’s essential to select the right tools and strategies. Recently, we encountered an interesting challenge: a client provided us with a 70 TB database as a tar file backup, which we downloaded via FTP. Due to strict security protocols, we couldn’t establish any direct or VPN connection to their network, so the tar file was our only access to their data.
+When managing massive datasets in a secure, scalable environment, it’s essential to select the right tools and strategies. Recently, we encountered an interesting challenge: a client provided us with a  70 GB database as a tar file backup (Post restore 1TB), which we downloaded via FTP. Due to strict security protocols, we couldn’t establish any direct or VPN connection to their network, so the tar file was our only access to their data.
 
 Our initial step was to restore the database in Azure SQL Database. While it solved immediate access needs, the database was costing around $200 per day to run—a cost that quickly adds up. This prompted us to rethink our approach and find a more cost-effective, long-term solution.
 

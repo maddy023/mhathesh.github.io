@@ -9,7 +9,7 @@ googleAnalytics: "G-X9KPV76EFD"
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
-buildDrafts: true
+buildDrafts: false
 buildFuture: true
 buildExpired: true
 enableEmoji: true
@@ -126,10 +126,6 @@ params:
   # text: "Home"
   # icon: icon.png
   # iconHeight: 35
-
-  analytics:
-      google:
-          SiteVerificationTag: "G-X9KPV76EFD"
 
   assets:
     disableHLJS: true
