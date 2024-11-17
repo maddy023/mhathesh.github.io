@@ -35,7 +35,7 @@ If you’re dealing with document-heavy datasets, this session made it clear tha
 
 ### **2. Let's PenTest the AI Apps**
 
-**Speaker**: _Samik Roy_  
+**Speaker**: [_Samik Roy_](https://www.linkedin.com/in/roysamik/)<br>
 **Session Theme**: Exploring Vulnerabilities in AI Applications
 
 
