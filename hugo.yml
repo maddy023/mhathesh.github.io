@@ -16,6 +16,14 @@ enableEmoji: true
 pygmentsUseClasses: true
 # mainsections: ["blog", "papermod"]
 
+sitemap:
+  changeFreq: ""
+  disable: false
+  # filename: sitemap.xml
+  priority: -1
+  filename: static/sitemap.xml
+
+
 minify:
   disableXML: true
   # minifyOutput: true
