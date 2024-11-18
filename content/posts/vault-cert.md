@@ -131,3 +131,7 @@ If you’re preparing for the certification, I highly recommend these resources:
 -   📚 **[Vault Associate Notes](https://github.com/ismet55555/Hashicorp-Certified-Vault-Associate-Notes/tree/main)**
 
 Vault is a vast ecosystem with endless potential. Whether you’re just starting or have years of experience, there’s always more to learn.
+
+## Just Like Pretzel Day – You Won’t Want to Miss These!
+
+[Vault Under Siege: The Shocking Story of 4 Million Tokens]({{< ref "4m-vault.md" >}})
