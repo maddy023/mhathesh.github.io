@@ -85,6 +85,6 @@ This rollback strategy is key to maintaining high availability and minimizing do
 
 ### Did I Stutter? Start Reading Now!
 
-[Part 1: Setting the Stage: Your Cloud Run Setup Adventure]({{< ref "cloudrun-part2" >}})
+[Part 1: Setting the Stage: Your Cloud Run Setup Adventure]({{< ref "cloudrun-part1" >}})
 
 [Part 2: Rolling Up Your Sleeves: Building, Pushing, and Deploying like a Pro]({{< ref "cloudrun-part2" >}})

@@ -244,6 +244,4 @@ By automating these tasks within your CI/CD pipeline, you streamline the deploym
 
 [Part 1: Setting the Stage: Your Cloud Run Setup Adventure]({{< ref "cloudrun-part2" >}})
 
-[Part 3: Oops, Something Went Wrong! Let’s Roll Back to the Rescue]({{< ref "cloudrun-part3" >}})
-
 [Part 1: Preparing Your Environment and Setting Up AKS for Ollama Models]({{< ref "ollama-part1" >}})
