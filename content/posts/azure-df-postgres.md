@@ -1,12 +1,9 @@
 ---
 date: 2024-11-07
-# description: ""
-# image: ""
-lastmod: 2024-11-07
-showTableOfContents: true
 tags: ["Azure", "Data Factory", "Architecture", "Data Engineering", "PostgreSQL", "Parquet"]
 title: "Part 1: Transform PostgreSQL Data with Azure Data Factory"
-type: "post"
+categories: ["Architecture"]
+series: ["Azure"]
 ---
 
 ### Problem Statement

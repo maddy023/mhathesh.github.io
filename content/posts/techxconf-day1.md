@@ -4,7 +4,8 @@ lastmod: 2024-11-17
 showTableOfContents: false
 tags: ["Tech Conference","AI","Cloud","2024"]
 title: "TechXConf 2024: Insights into AI and Cloud Innovations"
-type: "post"
+categories: ["GenAI"]
+series: ["Ollama"]
 draft: false
 cover:
     image: "/ai/ai-conf-cover.jpeg"

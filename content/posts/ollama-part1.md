@@ -5,7 +5,8 @@ date: 2024-10-27T18:03:38-04:00
 showTableOfContents: false
 tags: ["k8s","llama3","llm","genAI"]
 title: "Part 1: Preparing Your Environment and Setting Up AKS for Ollama Models"
-type: "post"
+categories: ["GenAI"]
+series: ["Ollama"]
 ---
 
 # Part 1: Preparing Your Environment and Setting Up AKS for Ollama Models

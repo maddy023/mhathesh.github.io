@@ -1,12 +1,10 @@
 ---
-date: 2024-11-10
-# description: ""
-# image: ""
-lastmod: 2024-11-10
-showTableOfContents: false
-tags: ["Vault","Architecture","HashiCorp"]
+author: ["Mhathesh"]
 title: "Vault Under Siege: The Shocking Story of 4 Million Tokens"
-type: "post"
+date: "2024-11-10"
+tags: ["Vault","HashiCorp"]
+categories: ["Architecture"]
+series: ["Vault"]
 ---
 
 Ever imagined a Vault so jam-packed with tokens that it flatlines? Well, one organization found out the hard way when their Vault instance ground to a halt under the weight of _four million_ service tokens. Picture this: they couldn't even authenticate with Vault, not even after a desperate restart! After much scrambling (and a call to Vault support), they got it back up and running, but that got me thinking about how we can avoid a similar token overload disaster. So, let’s dive into some best practices to keep your Vault healthy and far away from token-induced headaches.

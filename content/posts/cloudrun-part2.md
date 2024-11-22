@@ -6,7 +6,8 @@ lastmod: 2024-11-06
 showTableOfContents: true
 tags: ["GCP","Github Actions", "CI/CD"]
 title: "Part 2: Rolling Up Your Sleeves: Building, Pushing, and Deploying like a Pro"
-type: "post"
+categories: ["CI/CD"]
+series: ["GCP"]
 draft: true
 ---
 Welcome to Part 2 of our series on deploying applications to Google Cloud Run via a CI/CD pipeline. In Part 1, we covered the initial setup, including creating a Google Cloud project, configuring required APIs, and setting up service accounts. Now, in Part 2, we’ll dive into the heart of the deployment pipeline.

@@ -14,7 +14,7 @@ buildFuture: true
 buildExpired: true
 enableEmoji: true
 pygmentsUseClasses: true
-# mainsections: ["blog", "papermod"]
+mainsections: ["posts"]
 
 sitemap:
   changeFreq: ""
@@ -22,7 +22,6 @@ sitemap:
   # filename: sitemap.xml
   priority: -1
   filename: static/sitemap.xml
-
 
 minify:
   disableXML: true
@@ -54,7 +53,7 @@ languages:
     params:
       languageAltTitle: English
       profileMode:
-        enabled: true
+        enabled: false
         title: 
         imageUrl: "https://raw.githubusercontent.com/googlefonts/noto-emoji/master/svg/emoji_u1f9d1_1f3fb_200d_1f4bb.svg"
         imageTitle: Image
@@ -89,11 +88,12 @@ params:
   ShowAllPagesInArchive: true
   ShowPageNums: true
   ShowToc: true
+  TocOpen: true
   comments: true
   # images: ["images/papermod-cover.png"]
 
   # profileMode:
-  #   enabled: enable
+  #   enabled: true
   #   title: PaperMod
   #   imageUrl: "#"
   #   imageTitle: my image
@@ -105,10 +105,15 @@ params:
   #     - name: Tags
   #       url: tags
 
-  # homeInfoParams:
-  #   Title: "Never tell me the odds! — The Empire Strikes Back"
-  #   Content: >
-  #     👋 Welcome to demo page of Hugo's theme PaperMod!
+  homeInfoParams:
+    Title: "Never tell me the odds! — The Empire Strikes Back"
+    Content: >
+      Hey there! I'm Mhathesh, and this is my digital garden where I dump my tech adventures, 
+      random musings, and probably too many Star Wars references. After battling with Notion for way too long, 
+      I finally found my way here. Expect notes on coding, tech, and occasional nerdy deep-dives!
+      <br>
+      <br>
+      May the source be with you! 🖖
 
   socialIcons:
     # - name: github
@@ -120,7 +125,7 @@ params:
     - name: topmate
       title: Wana discuss about anything?
       url: "https://topmate.io/mhathesh"
-    - name: KoFi
+    - name: buymeacoffee
       title: Buy me Coffee :)
       url: "https://buymeacoffee.com/maddytsr"
 
@@ -130,14 +135,14 @@ params:
     appendFilePath: true # to append file path to Edit link
 
   # label:
-  # iconSVG: '<svg xmlns="http://www.w3.org/2000/svg" height="25" viewBox="0 -960 960 960" fill="currentColor"><path d="M320-240h320v-80H320v80Zm0-160h320v-80H320v80ZM240-80q-33 0-56.5-23.5T160-160v-640q0-33 23.5-56.5T240-880h320l240 240v480q0 33-23.5 56.5T720-80H240Zm280-520v-200H240v640h480v-440H520ZM240-800v200-200 640-640Z"/></svg>'
-  # text: "Home"
-  # icon: icon.png
-  # iconHeight: 35
+  #   iconSVG: '<svg xmlns="http://www.w3.org/2000/svg" height="25" viewBox="0 -960 960 960" fill="currentColor"><path d="M320-240h320v-80H320v80Zm0-160h320v-80H320v80ZM240-80q-33 0-56.5-23.5T160-160v-640q0-33 23.5-56.5T240-880h320l240 240v480q0 33-23.5 56.5T720-80H240Zm280-520v-200H240v640h480v-440H520ZM240-800v200-200 640-640Z"/></svg>'
+  #   text: "Home"
+  #   icon: icon.png
+  #   iconHeight: 35
 
   assets:
     disableHLJS: true
-  #     favicon: "<link / abs url>"
+    favicon: "/binary.gif"
   #     favicon16x16: "<link / abs url>"
   #     favicon32x32: "<link / abs url>"
   #     apple_touch_icon: "<link / abs url>"

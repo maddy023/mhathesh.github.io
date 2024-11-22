@@ -1,11 +1,10 @@
 ---
+author: ["Mhathesh"]
 date: 2024-11-07T18:04:38-04:00
-# description: ""
-# image: ""
-showTableOfContents: true
 tags: ["AWS", "Architecture", "MediaConvert", "CDN"]
+categories: ["Architecture"]
+series: ["AWS"]
 title: "Building a Scalable OTT Platform Using AWS MediaConvert"
-type: "post"
 ---
 
 In this project, we developed a robust backend infrastructure for an OTT (Over-The-Top) streaming platform using AWS services such as S3, MediaConvert, and CloudFront CDN. Our goal was to provide a seamless, high-quality streaming experience for movies, adaptable to various internet speeds and screen resolutions.

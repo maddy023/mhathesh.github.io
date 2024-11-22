@@ -5,8 +5,8 @@ date: 2024-10-27T18:04:38-04:00
 showTableOfContents: false
 tags: ["k8s","llama3","llm","genAI"]
 title: "Part 2: Exposing and Scaling the Ollama Model on AKS"
-type: "post"
-draft: false
+categories: ["GenAI"]
+series: ["Ollama"]
 ---
 
 # Part 2: Exposing and Scaling the Ollama Model on AKS
