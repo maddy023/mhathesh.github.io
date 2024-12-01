@@ -4,8 +4,9 @@ lastmod: 2024-11-18
 showTableOfContents: false
 tags: ["Vault","HashiCorp","Certification","Security","DevSecOps"]
 title: "What Vault Certification Taught Me!"
-type: "post"
 draft: false
+series: ["What it taught me"]
+categories: ["Learning"]
 cover:
     image: "/vault/vault-cover.jpg"
     alt: "Cover"

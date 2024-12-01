@@ -22,3 +22,7 @@ check-hugo: check-command
 ## new-blog      : Generate a new blog file with the given name using Hugo.
 new-blog:
 	hugo new content/posts/$(name).md
+
+.PHONY: live
+live:
+	hugo server --disableFastRender
