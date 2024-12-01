@@ -1,192 +1,209 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
 <url>
-  <loc>https://mhathesh.me/</loc>
-  <lastmod>2024-11-22T17:32:37+00:00</lastmod>
-  <priority>1.00</priority>
+<loc>https://mhathesh.me/</loc>
+<lastmod>2024-12-01T09:17:13+00:00</lastmod>
+<priority>1.00</priority>
 </url>
 <url>
-  <loc>https://mhathesh.me/archives/</loc>
-  <lastmod>2024-11-22T17:32:37+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://mhathesh.me/archives/</loc>
+<lastmod>2024-12-01T09:17:13+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://mhathesh.me/search/</loc>
-  <lastmod>2024-11-22T17:32:37+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://mhathesh.me/search/</loc>
+<lastmod>2024-12-01T09:17:13+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://mhathesh.me/tags/</loc>
-  <lastmod>2024-11-22T17:32:37+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://mhathesh.me/tags/</loc>
+<lastmod>2024-12-01T09:17:13+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://mhathesh.me/posts/techxconf-day1/</loc>
-  <lastmod>2024-11-22T17:32:37+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://mhathesh.me/posts/cka-cert/</loc>
+<lastmod>2024-12-01T09:17:13+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://mhathesh.me/posts/4m-vault/</loc>
-  <lastmod>2024-11-22T17:32:37+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://mhathesh.me/posts/vault-cert/</loc>
+<lastmod>2024-12-01T09:17:13+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://mhathesh.me/posts/aws-ott/</loc>
-  <lastmod>2024-11-22T17:32:37+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://mhathesh.me/posts/techxconf-day1/</loc>
+<lastmod>2024-12-01T09:17:13+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://mhathesh.me/posts/azure-df-postgres/</loc>
-  <lastmod>2024-11-22T17:32:37+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://mhathesh.me/posts/4m-vault/</loc>
+<lastmod>2024-12-01T09:17:13+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://mhathesh.me/posts/ollama-part2/</loc>
-  <lastmod>2024-11-22T17:32:37+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://mhathesh.me/posts/aws-ott/</loc>
+<lastmod>2024-12-01T09:17:13+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://mhathesh.me/page/2/</loc>
-  <lastmod>2024-11-22T17:32:37+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://mhathesh.me/page/2/</loc>
+<lastmod>2024-12-01T09:17:13+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://mhathesh.me/posts/vault-cert/</loc>
-  <lastmod>2024-11-22T17:32:37+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://mhathesh.me/posts/azure-df-postgres/</loc>
+<lastmod>2024-12-01T09:17:13+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
-  <loc>https://mhathesh.me/posts/ollama-part1/</loc>
-  <lastmod>2024-11-22T17:32:37+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://mhathesh.me/posts/ollama-part2/</loc>
+<lastmod>2024-12-01T09:17:13+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
-  <loc>https://mhathesh.me/tags/2024/</loc>
-  <lastmod>2024-11-22T17:32:37+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://mhathesh.me/posts/ollama-part1/</loc>
+<lastmod>2024-12-01T09:17:13+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
-  <loc>https://mhathesh.me/tags/ai/</loc>
-  <lastmod>2024-11-22T17:32:37+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://mhathesh.me/tags/2024/</loc>
+<lastmod>2024-12-01T09:17:13+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
-  <loc>https://mhathesh.me/tags/architecture/</loc>
-  <lastmod>2024-11-22T17:32:37+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://mhathesh.me/tags/ai/</loc>
+<lastmod>2024-12-01T09:17:13+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
-  <loc>https://mhathesh.me/tags/aws/</loc>
-  <lastmod>2024-11-22T17:32:37+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://mhathesh.me/tags/architecture/</loc>
+<lastmod>2024-12-01T09:17:13+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
-  <loc>https://mhathesh.me/tags/azure/</loc>
-  <lastmod>2024-11-22T17:32:37+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://mhathesh.me/tags/aws/</loc>
+<lastmod>2024-12-01T09:17:13+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
-  <loc>https://mhathesh.me/tags/cdn/</loc>
-  <lastmod>2024-11-22T17:32:37+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://mhathesh.me/tags/azure/</loc>
+<lastmod>2024-12-01T09:17:13+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
-  <loc>https://mhathesh.me/tags/certification/</loc>
-  <lastmod>2024-11-22T17:32:37+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://mhathesh.me/tags/cdn/</loc>
+<lastmod>2024-12-01T09:17:13+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
-  <loc>https://mhathesh.me/tags/cloud/</loc>
-  <lastmod>2024-11-22T17:32:37+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://mhathesh.me/tags/certification/</loc>
+<lastmod>2024-12-01T09:17:13+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
-  <loc>https://mhathesh.me/tags/data-engineering/</loc>
-  <lastmod>2024-11-22T17:32:37+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://mhathesh.me/tags/cka/</loc>
+<lastmod>2024-12-01T09:17:13+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
-  <loc>https://mhathesh.me/tags/data-factory/</loc>
-  <lastmod>2024-11-22T17:32:37+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://mhathesh.me/tags/cloud/</loc>
+<lastmod>2024-12-01T09:17:13+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
-  <loc>https://mhathesh.me/tags/devsecops/</loc>
-  <lastmod>2024-11-22T17:32:37+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://mhathesh.me/tags/cncf/</loc>
+<lastmod>2024-12-01T09:17:13+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
-  <loc>https://mhathesh.me/tags/genai/</loc>
-  <lastmod>2024-11-22T17:32:37+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://mhathesh.me/tags/container/</loc>
+<lastmod>2024-12-01T09:17:13+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
-  <loc>https://mhathesh.me/tags/hashicorp/</loc>
-  <lastmod>2024-11-22T17:32:37+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://mhathesh.me/tags/data-engineering/</loc>
+<lastmod>2024-12-01T09:17:13+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
-  <loc>https://mhathesh.me/tags/k8s/</loc>
-  <lastmod>2024-11-22T17:32:37+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://mhathesh.me/tags/data-factory/</loc>
+<lastmod>2024-12-01T09:17:13+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
-  <loc>https://mhathesh.me/tags/llama3/</loc>
-  <lastmod>2024-11-22T17:32:37+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://mhathesh.me/tags/devsecops/</loc>
+<lastmod>2024-12-01T09:17:13+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
-  <loc>https://mhathesh.me/tags/llm/</loc>
-  <lastmod>2024-11-22T17:32:37+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://mhathesh.me/tags/genai/</loc>
+<lastmod>2024-12-01T09:17:13+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
-  <loc>https://mhathesh.me/tags/mediaconvert/</loc>
-  <lastmod>2024-11-22T17:32:37+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://mhathesh.me/tags/hashicorp/</loc>
+<lastmod>2024-12-01T09:17:13+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
-  <loc>https://mhathesh.me/tags/parquet/</loc>
-  <lastmod>2024-11-22T17:32:37+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://mhathesh.me/tags/k8s/</loc>
+<lastmod>2024-12-01T09:17:13+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
-  <loc>https://mhathesh.me/tags/postgresql/</loc>
-  <lastmod>2024-11-22T17:32:37+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://mhathesh.me/tags/linuxfoundation/</loc>
+<lastmod>2024-12-01T09:17:13+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
-  <loc>https://mhathesh.me/tags/security/</loc>
-  <lastmod>2024-11-22T17:32:37+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://mhathesh.me/tags/llama3/</loc>
+<lastmod>2024-12-01T09:17:13+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
-  <loc>https://mhathesh.me/tags/tech-conference/</loc>
-  <lastmod>2024-11-22T17:32:37+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://mhathesh.me/tags/llm/</loc>
+<lastmod>2024-12-01T09:17:13+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
-  <loc>https://mhathesh.me/tags/vault/</loc>
-  <lastmod>2024-11-22T17:32:37+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://mhathesh.me/tags/mediaconvert/</loc>
+<lastmod>2024-12-01T09:17:13+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
-  <loc>https://mhathesh.me/posts/</loc>
-  <lastmod>2024-11-22T17:32:37+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://mhathesh.me/tags/parquet/</loc>
+<lastmod>2024-12-01T09:17:13+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
-  <loc>https://mhathesh.me/posts/page/2/</loc>
-  <lastmod>2024-11-22T17:32:37+00:00</lastmod>
-  <priority>0.51</priority>
+<loc>https://mhathesh.me/tags/postgresql/</loc>
+<lastmod>2024-12-01T09:17:13+00:00</lastmod>
+<priority>0.64</priority>
 </url>
-
-
+<url>
+<loc>https://mhathesh.me/tags/security/</loc>
+<lastmod>2024-12-01T09:17:13+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://mhathesh.me/tags/tech-conference/</loc>
+<lastmod>2024-12-01T09:17:13+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://mhathesh.me/tags/vault/</loc>
+<lastmod>2024-12-01T09:17:13+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://mhathesh.me/posts/</loc>
+<lastmod>2024-12-01T09:17:13+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://mhathesh.me/posts/page/2/</loc>
+<lastmod>2024-12-01T09:17:13+00:00</lastmod>
+<priority>0.51</priority>
+</url>
 </urlset>
